@@ -1,50 +1,221 @@
-<head>Welcome to My Portfolio:)</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harishsingh Rajput's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #353b45; /* Black */
+            color: #e3e6e0; /* Ivory */
+            margin: 0;
+            padding: 0;
+        }
+        header, section, footer {
+            max-width: 950px;
+            margin: 30px auto;
+            background: #191b1a; /* Blue Gray green-5a8675*/
+            /* border-radius: 0px; */
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            padding: 32px 36px;
+            
+        }
+        
+        header {
+            text-align: center;
+            background: linear-gradient(90deg, #c0b3a0 0%, #6b8490 100%); /* Khaki to Blue Gray */
+            color: #252930; /* Ivory */
+            margin-top: 40px;
+        }
+        h1 {
+            margin-bottom: 0;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #e3e6e0; /* Ivory */
+            margin-top: 0;
+        }
+        .section-title {
+            color: #c0b3a0; /* Khaki */
+            /*border-bottom: 2px solid #6b8490; /* Blue Gray */
+            display: inline-block;
+            margin-bottom: 18px;
+        }
+        ul, ol {
+            margin: 0 0 0 20px;
+        }
+        .projects-list, .work-list, .skills-list, .education-list, .awards-list, .blogs-list {
+            list-style: none;
+            padding: 0;
+        }
+        .projects-list li, .work-list li, .education-list li, .awards-list li, .blogs-list li {
+            margin-bottom: 18px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #c0b3a0; /* Khaki */
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills-list li {
+            background: #c0b3a0; /* Khaki */
+            color: #252930; /* Black */
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 1em;
+            border: 1px solid #6b8490; /* Blue Gray */
+        }
+        .resume-link {
+            display: inline-block;
+            margin: 12px 0;
+            padding: 10px 24px;
+            background: #6b8490; /* Blue Gray */
+            color: #e3e6e0; /* Ivory */
+            border-radius: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .resume-link:hover {
+            background: #252930; /* Black */
+        }
+        footer {
+            text-align: center;
+            font-size: 1em;
+            color: #c0b3a0; /* Khaki */
+            background: none;
+            box-shadow: none;
+            margin-bottom: 30px;
+        }
+        footer a {
+            color: #c0b3a0; /* Khaki */
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            header, section, footer {
+                padding: 18px 8px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
 <body>
-    <h2>Harishsingh Rajput</h2>
-    <p>I am a Professional Business Analyst with over 4 years of industry experienc in multiple domains including Financial services, Banking, Automotive IT, e-Commerce.</p>
-    <p>Currently working at Amazon.</p>
-    <p>Feel free to explore my work and connect with me!</p>
+    <header>
+        <h1>Harish</h1>
+        <p>👋 Welcome to my portfolio website.</p>
+    </header>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            I am a results-driven Business Analyst with over 4 years of cross-industry experience in delivering complex IT transformation initiatives. 
+            I have proven expertise in requirements gathering, solution design, and implementation across Banking, Payments, Automotive, and E-commerce domains.
+            I thrive in dynamic environments and enjoy collaborating with cross-functional teams to achieve common goals.
+        </p>
+        <p>
+            Known for effective stakeholder management and clear communication of complex technical concepts to diverse audiences.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projects Showcase</h2>
+        <ul class="projects-list">
+            <li>
+                <strong>Real-Time Payments Integration Platform</strong> – Real-Time Payments (RTP) – Integration & Migration to IKP <br>
+Spearheaded the integration of RTP systems with SWIFT infrastructure, ensuring regulatory compliance and accelerating cross-border payment processing.<br>
+
+Conducted 25+ stakeholder interviews to gather SWIFT-compliant requirements<br>
+
+Facilitated workshops to define functional and technical specifications<br>
+
+Maintained a Requirements Traceability Matrix with 150+ documented requirements, improving compliance by 20%<br>
+
+Enhanced payment processing speed by 30%, reducing transaction time by 20%<br>
+
+Coordinated integration across 5+ technical teams, ensuring seamless connectivity<br>
+
+Executed 12+ test cycles to validate system performance and reliability<br>
+
+Ensured adherence to 10+ regulatory standards, minimizing breach risks<br>
+
+Collaborated on SWIFT gpi implementation, cutting settlement time from 2 days to under 24 hours<br>
+
+Improved audit performance by 15% through rigorous data integrity checks.<br>
+            </li>
+            <li>
+                <strong>Real-Time Operating System (RTOS) </strong>– HMI Application Development<br>
+Led the development of a Human-Machine Interface (HMI) application on a Real-Time Operating System, driving significant improvements in operational efficiency and stakeholder engagement.<br>
+
+Automated repetitive tasks, boosting process efficiency by 30%<br>
+
+Analyzed 10+ existing processes to identify RTOS implementation opportunities<br>
+
+Streamlined requirement gathering, reducing delivery timelines by 20%<br>
+
+Improved system reliability by 15% through enhanced reporting and analytics<br>
+
+Standardized documentation templates, increasing accuracy by 25% and reducing deliverable errors<br>
+
+Established regular status updates, elevating stakeholder engagement scores by 30%<br>
+
+Monitored compliance adherence, achieving a 70% reduction in policy breaches.<br>
+            </li>
+        </ul>
+    </section>
+
+    <section id="work">
+        <h2 class="section-title">Work Experience</h2>
+        <ul class="work-list">
+            <li>
+                <strong>Business Analyst, Amazon</strong> <br>
+                <em>Jan 2025 – Present</em><br>
+                Global Command Center (GCC) Real-time SLA management and resolution.
+            </li>
+            <li>
+                <strong>Business Analyst, People Tech Group, Hyderabad</strong> <br>
+                <em>Nov 2023 – Dec 2024</em><br>
+                Delivered automotive software solutions and process automation initiatives.
+            </li>
+            <li>
+                <strong>Software Engineer, Capgemini</strong> <br>
+                <em>Aug 2021 – Oct 2023</em><br>
+                Worked on Global Banking and cross border payments platform development.
+            </li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+            <li>Business Analysis</li>
+            <li>Agile Methodologies</li>
+            <li>SQL</li>
+            <li>Data Visualization</li>
+            <li>Stakeholder Management</li>
+            <li>JIRA</li>
+            <li>Tableau</li>
+            <li>Python</li>
+            <li>Process Mapping</li>
+            <li>Requirements Gathering</li>
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2 class="section-title">Resume / CV</h2>
+        <a class="https://github.com/harishrajput99/harishrajput99.github.io/blob/552eb06f9cf9efdc88468a19a47fe432782a5945/Harish_Rajput_CV_2025_v2.pdf" href="harish_rajput_resume.pdf" target="_blank">Download My Resume (PDF)</a>
+    </section>
+
     <footer>
-        <p>Contact: <a href="mailto:harirajput2304@gmail.com"></a></p>
+        <p>Contact: <a href="mailto:harirajput2304@gmail.com">harirajput2304@gmail.com</a></p>
         <p>Follow me on <a href="https://www.linkedin.com/in/harishsingh-rajput-113355hs/">LinkedIn</a></p>
     </footer>
 </body>
-<title>Harishsing Rajput's Page</title>
-<link rel="stylesheet" href="styles.css">
-<script src="script.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        console.log('Page loaded and ready!');
-    });
-</script>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        color: #333;
-        margin: 0;
-        padding: 20px;
-    }
-    h1 {
-        color: #2c3e50;
-    }
-    footer {
-        margin-top: 20px;
-        font-size: 0.9em;
-        color: #555;
-    }
-    footer a {
-        color: #3498db;
-        text-decoration: none;
-    }
-    footer a:hover {
-        text-decoration: underline;
-    }
-</style>
-<script>
-    function showAlert() {
-        alert('Welcome to my page!');
-    }
-    }
-    document.addEventListener('DOMContentLoaded', showAlert);
-</script>
+</html>
