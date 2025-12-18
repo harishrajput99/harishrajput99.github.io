@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="100%" height="100%" fill="#fffaf6"/>
+  <rect x="24" y="24" width="752" height="402" rx="8" fill="#fff6eb" stroke="#ffecd9"/>
+  <text x="50" y="80" font-size="28" fill="#0f1724" font-family="Segoe UI, Roboto, Arial">HMI — Sample screens</text>
+  <rect x="50" y="120" width="640" height="180" rx="6" fill="#fff" stroke="#f8efe2"/>
+  <text x="60" y="155" font-size="14" fill="#6b7280">Prototype UI and telemetry view</text>
+</svg>
